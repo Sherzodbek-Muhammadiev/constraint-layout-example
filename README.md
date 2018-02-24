@@ -1,4 +1,9 @@
 # An example of using ConstraintLayout
+
+    dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0-beta5'
+    }
+
 ## Barrier (Added in 1.1)
 >A Barrier references multiple widgets as input, and creates a virtual guideline based on the most extreme widget on the specified side. For example, a left barrier will align to the left of all the referenced views.
 
