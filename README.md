@@ -42,8 +42,10 @@
             app:layout_constraintLeft_toRightOf="@id/barrier" />
     
     </android.support.constraint.ConstraintLayout>
+    
 
 ##Circular positioning (Added in 1.1)
+
 >You can constrain a widget center relative to another widget center, at an angle and a distance. This allows you to position a widget on a circle. The following attributes can be used:
 
 * layout_constraintCircle : references another widget id
@@ -107,6 +109,7 @@
     
     
 ##Group (Added in 1.1)
+
 >This class controls the visibility of a set of referenced widgets. Widgets are referenced by being added to a comma separated list of ids.
 The visibility of the group will be applied to the referenced widgets. It's a convenient way to easily hide/show a set of widgets without having to maintain this set programmatically.
 
@@ -140,7 +143,9 @@ The visibility of the group will be applied to the referenced widgets. It's a co
     
     </android.support.constraint.ConstraintLayout>
     
+    
 ## Guideline
+
 >Utility class representing a Guideline helper object for ConstraintLayout. Helper objects are not displayed on device (they are marked as View.GONE) and are only used for layout purposes. They only work within a ConstraintLayout.
 
 > A Guideline can be either horizontal or vertical:
@@ -180,7 +185,9 @@ The visibility of the group will be applied to the referenced widgets. It's a co
     
     </android.support.constraint.ConstraintLayout>
     
+    
 ## Placeholder (Added in 1.1)
+
 >A Placeholder provides a virtual object which can position an existing object.
  
  >When the id of another view is set on a placeholder (using setContent()), the placeholder effectively becomes the content view. If the content view exist on the screen it is treated as gone from its original location.
