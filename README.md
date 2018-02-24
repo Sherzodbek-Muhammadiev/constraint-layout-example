@@ -2,6 +2,7 @@
 ## Barrier (Added in 1.1)
 >A Barrier references multiple widgets as input, and creates a virtual guideline based on the most extreme widget on the specified side. For example, a left barrier will align to the left of all the referenced views.
 
+
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -44,7 +45,7 @@
     </android.support.constraint.ConstraintLayout>
     
 
-##Circular positioning (Added in 1.1)
+## Circular positioning (Added in 1.1)
 
 >You can constrain a widget center relative to another widget center, at an angle and a distance. This allows you to position a widget on a circle. The following attributes can be used:
 
@@ -108,7 +109,7 @@
     </android.support.constraint.ConstraintLayout>
     
     
-##Group (Added in 1.1)
+## Group (Added in 1.1)
 
 >This class controls the visibility of a set of referenced widgets. Widgets are referenced by being added to a comma separated list of ids.
 The visibility of the group will be applied to the referenced widgets. It's a convenient way to easily hide/show a set of widgets without having to maintain this set programmatically.
