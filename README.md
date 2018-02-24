@@ -2,6 +2,7 @@
 ## Barrier (Added in 1.1)
 >A Barrier references multiple widgets as input, and creates a virtual guideline based on the most extreme widget on the specified side. For example, a left barrier will align to the left of all the referenced views.
 
+![alt-текст](https://raw.githubusercontent.com/Sherzodbek-Muhammadiev/constraint-layout-example/master/barrier.PNG)
 
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -52,6 +53,8 @@
 * layout_constraintCircle : references another widget id
 * layout_constraintCircleRadius : the distance to the other widget center
 * layout_constraintCircleAngle : which angle the widget should be at (in degrees, from 0 to 360)
+
+![alt-текст](https://raw.githubusercontent.com/Sherzodbek-Muhammadiev/constraint-layout-example/master/circle.PNG)
 
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -114,6 +117,8 @@
 >This class controls the visibility of a set of referenced widgets. Widgets are referenced by being added to a comma separated list of ids.
 The visibility of the group will be applied to the referenced widgets. It's a convenient way to easily hide/show a set of widgets without having to maintain this set programmatically.
 
+![alt-текст](https://raw.githubusercontent.com/Sherzodbek-Muhammadiev/constraint-layout-example/master/group.PNG)
+
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -162,6 +167,8 @@ The visibility of the group will be applied to the referenced widgets. It's a co
  
  >Widgets can then be constrained to a Guideline, allowing multiple widgets to be positioned easily from one Guideline, or allowing reactive layout behavior by using percent positioning.
  
+ ![alt-текст](https://raw.githubusercontent.com/Sherzodbek-Muhammadiev/constraint-layout-example/master/guidline.PNG)
+ 
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -194,6 +201,8 @@ The visibility of the group will be applied to the referenced widgets. It's a co
  >When the id of another view is set on a placeholder (using setContent()), the placeholder effectively becomes the content view. If the content view exist on the screen it is treated as gone from its original location.
  
  >The content view is positioned using the layout of the parameters of the Placeholder (the Placeholder is simply constrained in the layout like any other view).
+ 
+![alt-текст](https://raw.githubusercontent.com/Sherzodbek-Muhammadiev/constraint-layout-example/master/placeholder.PNG)
  
     <?xml version="1.0" encoding="utf-8"?>
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
